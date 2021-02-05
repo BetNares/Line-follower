@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Line follower</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fonts.css">
+
+    <script type="text/javascript" src="script.js"></script>
+
+</head>
+<body>
+
+    <div class="Title">
+        <h1>Line Follower</h1>
+        
+        <div class="TeamName">
+            <h2>Nama Team</h2>
+        </div>
+    </div>
+
+    <div class="timers">
+
+        <div class="container">
+
+            <div id="display">
+                00:00:00
+            </div>
+    
+            <div class="buttons">
+                <button class="timerbutton" id="startStop" onclick="startStop()">Start</button> <button class="timerbutton" id="reset" onclick="reset()">Reset</button>
+            </div>
+    
+        </div>
+    
+        <div class="container">
+    
+            <div id="time">
+                00:00:00
+            </div>
+    
+            <div class="buttons">
+                <button class="timerbutton" id="startStop" onclick="startStop()">Start</button> <button class="timerbutton" id="reset" onclick="reset()">Reset</button>
+            </div>
+    
+        </div>
+
+    </div>
+
+    <div class="points">
+        <div class="card">
+            0
+            <div class="cardfooter">
+                <button class= "plusbutt" id="pluscp" onclick="pluscp()">+</button> <button class= "minbutt" id="minuscp" onclick="minuscp()">-</button>
+            </div>
+        </div>
+
+        <div class="card">
+            0
+            <div class="cardfooter">
+                <button class= "plusbutt" id="plusp" onclick="pluscp()">+</button> <button class= "minbutt" id="minuscp" onclick="minusp()">-</button>
+            </div>
+
+    </div>
+    
+    
+</body>
+</html>
