@@ -23,10 +23,12 @@
 
         <div class="wrapper">
             <form name="form_main">
-                <span id="hour">00</span><span>:</span>
-                <span id="minute">00</span><span>:</span>
-                <span id="second">00</span><span>:</span>
-                <span id="millisecond">000</span>
+                <div class="countup">
+                    <span id="minute">00</span><span>:</span>
+                    <span id="second">00</span><span>.</span>
+                    <span id="millisecond">00</span>
+                </div>
+                
                 <div class="cd-buttons">
                     <button name="start" type="button"> Start </button>
                     <button name="pause" type="button"> Stop </button>
@@ -40,6 +42,7 @@
 
     <div class="counter">
         <div class="wrapper" id="counter1">
+            <h1>Checkpoint</h1>
             <div id="count" class="count"> 0 </div>
             <div class="ct-buttons">
                 <button id="minus" class="btn1"> - </button>
@@ -49,6 +52,7 @@
         </div>
     
         <div class="wrapper" id="counter2">
+            <h1>Points</h1>
             <div id="count2" class="count"> 0 </div>
             <div class="ct-buttons">
                 <button id="minus2" class="btn2"> - </button>

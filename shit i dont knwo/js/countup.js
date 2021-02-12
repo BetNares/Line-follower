@@ -1,6 +1,6 @@
 "use strict";
 
-let hour2 = 0;
+
 let minute2 = 0;
 let second2 = 0;
 let millisecond = 0;
@@ -21,14 +21,14 @@ function pause() {
 }
 
 function reset4() {
-  hour2 = 0;
+  
   minute2 = 0;
   second2 = 0;
   millisecond = 0;
-  document.getElementById('hour').innerText = '00';
+  
   document.getElementById('minute').innerText = '00';
   document.getElementById('second').innerText = '00';
-  document.getElementById('millisecond').innerText = '000';
+  document.getElementById('millisecond').innerText = '00';
 }
 
 function timer2() {
@@ -40,11 +40,8 @@ function timer2() {
     second2 = 0;
     minute2++;
   }
-  if (minute2 == 60) {
-    minute2 = 0;
-    hour2++;
-  }
-  document.getElementById('hour').innerText = returnData(hour2);
+  
+  
   document.getElementById('minute').innerText = returnData(minute2);
   document.getElementById('second').innerText = returnData(second2);
   document.getElementById('millisecond').innerText = returnData(millisecond);
