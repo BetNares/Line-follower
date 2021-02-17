@@ -27,6 +27,23 @@ body{
     color: #fbfffe;
     font-family: Corp Games;
 }
+
+/* Nama Tim */
+.nama-tim{
+    margin: 0px;
+    margin-top: 0;
+    width: auto;
+    background-color: rgb(117, 146, 209);
+    border: none;
+    font-family: Gotham-Medium;
+    text-align: center;
+    color:white;
+    font-size: xx-large;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+
 /* Countdown */
 .countdown{
     display: flex;
@@ -133,7 +150,7 @@ body{
     font-family: Gotham-Black;
     font-size: 60px;
     color: #fbfffe;
-    padding: 1.7rem 1.7rem;
+    padding: 1rem 1rem;
 }
 
 #minus , #minus2 , #minus3{
