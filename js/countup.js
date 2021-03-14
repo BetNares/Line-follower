@@ -32,7 +32,7 @@ function reset4() {
 }
 
 function timer2() {
-  if ((millisecond += 10) == 1000) {
+  if ((millisecond += 1) == 100) {
     millisecond = 0;
     second2++;
   }
