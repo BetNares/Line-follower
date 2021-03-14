@@ -11,15 +11,15 @@ let statMil = 100
 function start() {
     if (seconds != 239) stop()
     timer = setInterval(function() {
-        if (seconds == 180 ) start2()
+        if (seconds == 180) start2()
         milliseconds--; 
         temp3 = milliseconds
         if (statMil != 0) statMil--
         else {
             statMil = 99
+            seconds--
             if (statSec != 0) { 
                 statSec-- 
-                seconds--
             }
             else statSec = 59
         }
